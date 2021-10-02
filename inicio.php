@@ -17,7 +17,7 @@
         <div class="contenedor">
             <form action="consulta.php" method="post">
                 <h2>Iniciar Sesión</h2>
-
+                <p>Nuevo parrafo</p>
                 <label for="usuario">Usuario: </label><br>
                 <input type="text" id="usuario" name="usuario"><br><br>
 
