@@ -1,6 +1,7 @@
 :root{
     /*Paleta de colores*/
     --fuentePrincipal:'Raleway', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --fuenteSecundaria:'Ephesis', cursive;
 }
 
 
@@ -161,3 +162,67 @@ a {
     
 }
 
+/********** FORMULARIO PROPIETARIO ************/
+
+#form-p{
+    height: 100vh;
+    background: linear-gradient(40deg, rgba(2, 0, 36, 0.5), rgba(15, 15, 16, 0.589) 35%, rgba(122, 126, 127, 0.644)), url( https://cdn.pixabay.com/photo/2018/01/31/15/40/house-3121343_1920_1201.jpg);   
+    background-position: left center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#contenedor-p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    max-width: 65rem;
+    
+}
+#contenedor-p h2{
+    color: #fff;
+    text-align: right;
+    font-family: var(--fuenteSecundaria);
+    font-size: 3rem;
+}
+#contenedor-p h2:hover{
+    transition: all .5s;
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+#form-propietario{
+    /*background-color: rgba(167, 156, 209, 0.459);*/
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4ec981+0,b0e8a9+100&0.65+0,0.26+100 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4ec981+0,1ae500+100&0.85+0,0.39+100 */
+    background: -moz-linear-gradient(top,  rgba(78,201,129,0.85) 0%, rgba(26,229,0,0.39) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(78,201,129,0.85) 0%,rgba(26,229,0,0.39) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(78,201,129,0.85) 0%,rgba(26,229,0,0.39) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d94ec981', endColorstr='#631ae500',GradientType=0 ); /* IE6-9 */
+
+    max-width: 30rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+#form-propietario h1{
+    color:rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#form-propietario input{
+    width: 95%;
+    border-radius: .2rem;
+    border: none;
+    height: 1.3rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+}
+
+#form-propietario label{
+    margin-bottom: 2rem;
+}
